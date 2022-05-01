@@ -1,0 +1,12 @@
+name: dataviz-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip:
+    - pandas
+    - matplotlib
+    - ipywidgets
+    - bqplot
+    - openpyxl
